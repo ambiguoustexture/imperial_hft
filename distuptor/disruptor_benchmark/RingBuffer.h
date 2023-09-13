@@ -16,6 +16,7 @@ public:
 private:
     std::vector<Event> buffer_;
     long nextSequence_;
+    size_t bufferSize_;
 };
 
 #endif  // RINGBUFFER_H
